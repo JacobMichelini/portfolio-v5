@@ -1,0 +1,26 @@
+  html, body{
+   		height: unset;
+  }
+
+  html {
+  		overflow-y: scroll;
+  }
+
+.header h1 {
+	-webkit-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+
+.footer {
+	padding-bottom: 30px;
+}
+
+.header .sliding-box {
+  height: 25px;
+  bottom: 100px;
+}
+
+.header .sliding-box-wrapper {
+  z-index: -1;
+}
+
